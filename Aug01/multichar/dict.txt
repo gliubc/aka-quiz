@@ -1,0 +1,21 @@
+#a
+Trans:art. 一;字母A
+#a
+Trans:n. 上午
+#a
+Trans:n. 往来帐户@往来:come - and - go; contact; intercourse@n. 往来帐户
+#aardvark
+Trans:n. 土猪
+#aardwolf
+Trans:n. 土狼
+#aasvogel
+Trans:n. 秃鹰之一种
+#abaci
+Trans:n. 算盘
+#aback
+Trans:ad. 向后地;朝后地
+#abacus
+Trans:n. 算盘
+#abaft
+Trans:ad. 向船尾@prep. 在...后
+#abalone
