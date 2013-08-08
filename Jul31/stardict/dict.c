@@ -37,20 +37,17 @@ int main(int argc, const char *argv[])
 			putchar('\n');
 			continue;
 		}
-
 		/* exit */
 		if (strchr(word, '$')) {
 			puts("~_~");
 			break;
 		}
-
 		/* search */
 		res = search(index, word);
 		if (res) {
 			search_out(res);
 			continue;
 		} 
-
 		/* similar search */
 		results = similar_search(index, word, results);
 		if (*results) {

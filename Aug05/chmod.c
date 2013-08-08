@@ -9,6 +9,7 @@ int main(void)
 
 	chmod("test", 0000);
 
+	/* comment */
 	stat("test", &s);
 	s.st_mode |= S_IXUSR | S_IXGRP | S_IXOTH;
 

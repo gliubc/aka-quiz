@@ -25,6 +25,5 @@ int main(void)
 			puts("read write");
 		}
 	}
-	
 	return 0;
 }

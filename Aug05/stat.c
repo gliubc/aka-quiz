@@ -2,7 +2,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
- MatchParen cterm=bold ctermbg=none ctermfg=magenta
+
 int main(void)
 {
 	struct stat s;

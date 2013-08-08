@@ -9,6 +9,7 @@
 
 #define MAX_PATH 1024
 
+/* copy */
 void copy(const char *src, const char *dest)
 {
 	char buf[10];
@@ -21,7 +22,7 @@ void copy(const char *src, const char *dest)
 		exit(1);	
 	}
 	/* open file dest */
-	fd_dest = open(dest, O_WRONLY | O_TRUNC | O_CREAT, 0644);
+	fd_dest = open(dest, O_WRONLY | O_TRUNC | O_CREAT, 0644);       
 	if (fd_dest < 0) {
 		printf("Open %s failed!\n", dest);
 		close(fd_src);
